@@ -24,10 +24,19 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Provision Virtual Machines
+
+Create a Windows Server VM to act as the domain controller and a Windows 10 VM as a client machine in Azure.
+- Install and Configure Active Directory
+
+Install the Active Directory Domain Services (AD DS) role on the Windows Server VM and promote it to a domain controller.
+- Join Client Machine to the Domain
+
+Configure the Windows 10 VM to join the newly created Active Directory domain.
+- Create Users and Groups
+
+Set up user accounts and organize them into groups within Active Directory for resource management and security.
+
 
 <h2>Deployment and Configuration Steps</h2>
 
