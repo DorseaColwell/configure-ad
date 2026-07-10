@@ -26,13 +26,8 @@ Both VMs live in the same Azure Virtual Network. The domain controller gets a st
 flowchart TB
     subgraph RG["Azure Resource Group"]
         subgraph VNET["Virtual Network"]
-            DC["DC-1
-Windows Server 2022
-AD DS · DNS
-static private IP"]
-            CLIENT["Client-1
-Windows 10 21H2
-DNS → DC-1"]
+            DC["DC-1<br/>Windows Server 2022<br/>AD DS · DNS<br/>static private IP"]
+            CLIENT["Client-1<br/>Windows 10 21H2<br/>DNS → DC-1"]
         end
     end
     ADMIN["Admin workstation"] -- RDP --> DC
